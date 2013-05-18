@@ -1,0 +1,3 @@
+TODO
+====
+ * check browser compatibility
