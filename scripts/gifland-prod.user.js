@@ -75,9 +75,7 @@ function checkStorage() {
     }
 }
 
-function incrementCounter() {
-    checkStorage();
-    
+function incrementCounter() {  
     var count = parseInt(localStorage.gl_gifcount);
     count = count + 1;
         
@@ -120,4 +118,5 @@ $("body").keyup(function(e){
 // Do things
 if(!GM_getValue("back", false)) {checkDuplicate();}
 siteReflow();
+checkStorage();  
 updateTitle();
