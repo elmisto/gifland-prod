@@ -17,7 +17,7 @@ function checkDuplicate() {
             visited.push(current);
         }
         else {
-            window.location.replace("http://gifland.us");
+            window.location.assign("/");
         }
     }
     else {
